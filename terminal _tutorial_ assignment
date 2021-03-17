@@ -1,0 +1,52 @@
+1)sudo - This is a command that has to be run with superuser privileges hence running just like an administrator in windows
+
+2)apt-get ~this is used to install, update,upgrade and remove any packages.
+	2.1)sudo apt-get update ~this is run after fresh install to update the database
+	2.2)sudo apt-get upgrade ~this is the next step after installation it upgrades intalled packages (i.e) sudo apt-get upgrade <package name>
+	2.3)sudo apt-get intall ~this is used to install packages (i.e) sudo apt-get install <package name>
+	2.4)sudo apt-get remove ~this is used to remove installed programs (i.e) sudo apt-get remove <package name>
+	2.5)sudo apt-get purge ~ this  removes s/w completely with data files so no longer files will be available when reinstalling
+	2.6)sudo apt-get autoremove ~ this removes any unecessary packages
+
+3)ls - this comand lists all files and folders in the working directory.
+
+4)cd - this command changes directory (e.g) cd home which means open home folder in current directory
+	4.1)cd / - this takes you to the root directory
+	4.2)cd .. - this takes you up one directory level.
+	4.3)cd-    this takes you to the previous directory
+	4.4)cd    -this on its own returns to home directory
+	4.5)cd ~  -this means starting from my home directory
+5)pwd - print working directory - it displays ful pathname of current working directory
+
+6)cp - this is alinux command that allows you to copy a file and should specify file you want to copy and location you want it copied to
+
+7)mv - this is a powerful command that allows you to move files
+
+8)rm - this command removes specified files
+	8.1)rmdir("remove directory") - removes empty directory
+	8.2)rm -r("remove recursively") - removes directory along with its content
+9)mkdir - command allows you to makes a new directory.parent directories can be created by "-p" called option or a switch e.g mkdir -p dir4/dir5/dir6 when listing only dir4 appears meaning dir5 is in dir4 while dir6 is in dir5
+
+10)history - this command displays all your previous commands upto the history limit
+
+11)du - (directory usage) this command displays size of the directory
+
+12)free - this command displays the amount of free space available on the system
+
+13)df - (display file system) this command displays info about disk space usage of all mounted file sytems
+
+14)top - this command displays the process using the most system resources at any time
+
+15)man - (manual page) man man - provides info about manual itself, man intro - displays brief intro to linux commands
+
+16)info - similar to man but oten provides more detailed or precise info 
+
+17)cat - this command is used to look/view at content (e.g) cat output.txt
+
+18)mv - this is a traditional unix command line that handles a rename as though you are moving the file from one name to another
+
+19) rmdir - this command is used to delete a empty folder preventing user from accidentally deleting a folder full of files when you didnt mean to
+
+20)wc - (word count)the command can tell us that using the -l switch to tell it we only want the line count it can also do character counts and word counts (e.g) wc -l combined.txt 
+
+

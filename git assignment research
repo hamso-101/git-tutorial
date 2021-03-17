@@ -1,0 +1,39 @@
+1)GIT -version control system recording changes made overtime in a database called repository.
+
+2)Installation on ubuntu - $ sudo apt-get install git
+
+3)Configuring git – first thing is to configure user-name and email in git to document changes made by user when recording commits (i.e) $ git config --global user.email"hamisi@gmail.com"
+$ git config --global user.name "hamisi"
+
+4)To verify your username and email input - $ git config -l
+
+5)Setting up git project we use this command - $ git init projectname (i.e) this generates a new working directory using the assigned project name
+
+6)Making the new created project folder my current working directory : $ cd projectname
+
+7)Use the touch command to create an empty file which will use to create a simple hello world program (i.e) $ touch helloworld.c
+
+8)Adding files in the directory we use the command :$ git add . this process is known as staging.this add period command adds the entire directory recursively.
+
+9)Creating a commit. It is created to perform a permanent historical record of exactly how project files exist at the given time using -m (i.e) - $ git commit -m "first commit of project, just an empty file"
+mv combined.txt dir1
+
+10)After updating the project further perform git add and git commit (i.e) $ git add helloworld.c & $ git commit -m "added source code to helloworld.c"
+
+11)read logs - having more commits in the project becomes useful to have historical record of the changes in our project over time, hence enter $ git log in the terminal to see an overview of the history so far
+
+12)commit - contains id, message, time/date, author and a complete snapshot of the project. The whole point of commiting is to record checkpoints as we go.
+
+13)echo - this is a standard unix command for writing content to a file (e.g) echo hello > file1.txt and hence the file1.txt is said to be modified
+
+14)git status - this is run to see the status of the working directory and the staging area in the project
+
+15)Every time you modify code you have to stage and the process of staging is to use the git add command
+
+16)Always stage your code before commiting to the repository
+
+17) git rm - removing a file from both working directory and the staging area (e.g) git rm file2.txt
+
+18)mv command - can be used to move or renaming files in directory (e.g)mv file1.txt main.js & 
+mv main.js file1.js , this renames file1.txt to file1.js
+
